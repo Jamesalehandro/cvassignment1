@@ -39,7 +39,13 @@ const Experience = () => {
         <Text fontSize={"20px"} my={8}>
           Position : Frontend Developer
         </Text>
-        <Text fontSize={"20px"}>
+        <Text
+          fontSize={"20px"}
+          w={"100%"}
+          border={"1px solid black"}
+          mx={2}
+          px={1}
+        >
           Main Tasks : Developing the UI/UX for the users.
         </Text>
 
